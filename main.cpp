@@ -70,5 +70,7 @@ int main()
 		return -1;
 	}
 	cout << endl;
+	delete [] mas;
+	delete [] result_mas;
     return 0;
 }
